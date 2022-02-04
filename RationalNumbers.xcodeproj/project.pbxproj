@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D75BB52A27ADDD54000A1A18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D75BB52927ADDD54000A1A18 /* main.cpp */; };
+		D75BB53227ADDDF0000A1A18 /* Rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D75BB53027ADDDF0000A1A18 /* Rational.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D75BB52627ADDD54000A1A18 /* RationalNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RationalNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75BB52927ADDD54000A1A18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D75BB53027ADDDF0000A1A18 /* Rational.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rational.cpp; sourceTree = "<group>"; };
+		D75BB53127ADDDF0000A1A18 /* Rational.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rational.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		D75BB52827ADDD54000A1A18 /* RationalNumbers */ = {
 			isa = PBXGroup;
 			children = (
+				D75BB53127ADDDF0000A1A18 /* Rational.hpp */,
+				D75BB53027ADDDF0000A1A18 /* Rational.cpp */,
 				D75BB52927ADDD54000A1A18 /* main.cpp */,
 			);
 			path = RationalNumbers;
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D75BB52A27ADDD54000A1A18 /* main.cpp in Sources */,
+				D75BB53227ADDDF0000A1A18 /* Rational.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

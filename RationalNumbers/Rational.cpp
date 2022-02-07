@@ -46,8 +46,9 @@ void Rational::Reduce(){
           cout<<"Numerator: "<<numerator<<"\n Denominator: "<<denominator<<endl;
 }
 Rational& Rational::operator+=(const Rational& rhs){
-    this->numerator+=rhs.numerator;
-    this->denominator+=rhs.denominator;
+    this->numerator=this->numerator*rhs.denominator+rhs.numerator*this->denominator;
+    this->denominator=this->denominator*rhs.denominator;
+    this->Reduce();
     return *this;
 }
 Rational operator*(const Rational& lhs,const Rational& rhs){
